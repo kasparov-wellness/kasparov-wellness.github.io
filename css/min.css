@@ -1776,49 +1776,101 @@ textarea.w-select {
 }
 
 :root {
-  --color-1: #1a1a1a;
-  --color-17: #f2f2f2;
-  --red-4: #f0da33;
-  --color-2: #262626;
-  --color-16: #d9d9d9;
-  --color-3: #333;
-  --color-14: #bfbfbf;
-  --white: white;
-  --50-red-transparent: rgb(240 197 51 / 50%);
-  --color-4: #404040;
-  --color-9: grey;
-  --red-2: #c2ae18;
-  --30-red-transparent: rgb(240 237 51 / 30%);
-  --10-red-transparent: rgb(240 221 51 / 10%);
-  --red-8: #fff187;
-  --color-7: #666;
-  --red-bg-2: #2e2b07;
-  --5-red-transparent: rgb(240 221 51 / 5%);
-  --red-1: #a89712;
-  --20-red-transparent: rgb(240 229 51 / 20%);
-  --red-6: #ffec5b;
-  --color-12: #a6a6a6;
-  --color-11: #999;
-  --color-15: #ccc;
-  --80-red-transparent: rgb(240 229 51 / 80%);
-  --color-10: #8c8c8c;
-  --40-red-transparent: rgb(240 229 51 / 40%);
-  --color-5: #4d4d4d;
-  --red-12: #fffedf;
-  --red-border-color: rgb(248 244 160 / 25%);
-  --color-6: #595959;
-  --color-8: #737373;
-  --red-3: #e2d424;
-  --red-5: #ffe944;
-  --red-7: #fff46e;
-  --color-13: #b3b3b3;
-  --60-red-transparent: rgb(240 229 51 / 60%);
-  --red-9: #fff798;
-  --red-10: #fffaaa;
-  --red-11: #fffbc4;
-  --dark-red: #7c6b14;
   --transparent-white: rgba(255, 255, 255, 0.8);
-  --red-bg-1: #181616;
+  --color-1: #1a1a1a;
+  --color-2: #262626;
+  --color-3: #333;
+  --color-4: #404040;
+  --color-5: #4d4d4d;
+  --color-6: #595959;
+  --color-7: #666;
+  --color-8: #737373;
+  --color-9: grey;
+  --color-10: #8c8c8c;
+  --color-11: #999;
+  --color-12: #a6a6a6;
+  --color-13: #b3b3b3;
+  --color-14: #bfbfbf;
+  --color-15: #ccc;
+  --color-16: #d9d9d9;
+  --color-17: #f2f2f2;
+  --white: white;
+
+  --red-1: #60a812;
+  --red-2: #78c218;
+  --red-3: #83e224;
+  --red-4: #9bf033;
+  --red-5: #abff44;
+  --red-6: #c3ff5b;
+  --red-7: #c5ff6e;
+  --red-8: #c9ff87;
+  --red-9: #c6ff98;
+  --red-10: #deffaa;
+  --red-11: #e4ffc4;
+  --red-12: #f1ffdf;
+  --red-bg-1: #171816;
+  --red-bg-2: #1c2e07;
+  --red-border-color: rgba(208, 248, 160, 0.25);
+
+  --5-red-transparent: rgba(180, 240, 51, 0.05);
+  --10-red-transparent: rgba(152, 240, 51, 0.1);
+  --20-red-transparent: rgba(174, 240, 51, 0.2);
+  --30-red-transparent: rgba(161, 240, 51, 0.3);
+  --40-red-transparent: rgba(158, 240, 51, 0.4);
+  --50-red-transparent: rgba(180, 240, 51, 0.5);
+  --60-red-transparent: rgba(158, 240, 51, 0.6);
+  --80-red-transparent: rgba(167, 240, 51, 0.8);
+  --dark-red: #4f7c14;
+
+  
+}
+
+:root {
+  --transparent-white: rgba(255, 255, 255, 0.8);
+  --color-1: #1a1a1a;
+  --color-2: #262626;
+  --color-3: #333;
+  --color-4: #404040;
+  --color-5: #4d4d4d;
+  --color-6: #595959;
+  --color-7: #666;
+  --color-8: #737373;
+  --color-9: grey;
+  --color-10: #8c8c8c;
+  --color-11: #999;
+  --color-12: #a6a6a6;
+  --color-13: #b3b3b3;
+  --color-14: #bfbfbf;
+  --color-15: #ccc;
+  --color-16: #d9d9d9;
+  --color-17: #f2f2f2;
+  --white: white;
+
+  --red-1: #a8a812;
+  --red-2: #c2c218;
+  --red-3: #dce224;
+  --red-4: #eaf033;
+  --red-5: #f9ff44;
+  --red-6: #fcff5b;
+  --red-7: #ffff6e;
+  --red-8: #f9ff87;
+  --red-9: #fffc98;
+  --red-10: #ffffaa;
+  --red-11: #fffdc4;
+  --red-12: #fffedf;
+  --red-bg-1: #171816;
+  --red-bg-2: #1c2e07;
+  --red-border-color: rgba(242, 248, 160, 0.25);
+
+  --5-red-transparent: rgba(240, 237, 51, 0.05);
+  --10-red-transparent: rgba(240, 231, 51, 0.1);
+  --20-red-transparent: rgba(240, 234, 51, 0.2);
+  --30-red-transparent: rgba(240, 237, 51, 0.3);
+  --40-red-transparent: rgba(240, 237, 51, 0.4);
+  --50-red-transparent: rgba(240, 231, 51, 0.5);
+  --60-red-transparent: rgba(240, 240, 51, 0.6);
+  --80-red-transparent: rgba(240, 240, 51, 0.8);
+  --dark-red: #7c7514;
 }
 .w-layout-grid {
   grid-row-gap: 16px;
@@ -3469,6 +3521,10 @@ figcaption {
   bottom: auto;
   left: 0%;
   right: 0%;
+}
+
+.nav:hover .nav-link-text {
+  color: var(--color-1);
 }
 .nav:hover {
   background-color: var(--red-4);
@@ -10992,7 +11048,6 @@ figcaption {
 @media screen and (max-width: 767px) {
   .fs-menu-flex {
     max-width: unset;
-
   }
   p {
     font-size: 1.3em;
