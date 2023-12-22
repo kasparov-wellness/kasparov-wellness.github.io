@@ -1821,8 +1821,6 @@ textarea.w-select {
   --60-red-transparent: rgba(158, 240, 51, 0.6);
   --80-red-transparent: rgba(167, 240, 51, 0.8);
   --dark-red: #4f7c14;
-
-  
 }
 
 :root {
@@ -7965,7 +7963,7 @@ figcaption {
   max-width: 60em;
   border: 2px solid var(--red-4);
   background-color: var(--white);
-  color: var(--red-4);
+  color: var(--red-2);
   margin-top: -2em;
   margin-left: -1px;
   padding: 5.5em;
@@ -8938,7 +8936,7 @@ figcaption {
 .cta-overlay-color {
   z-index: 20;
   mix-blend-mode: multiply;
-  background-color: rgba(46, 7, 7, 0.55);
+  background-color: rgba(46, 45, 7, 0.55);
   position: absolute;
   top: 0%;
   bottom: 0%;
